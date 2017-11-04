@@ -3,7 +3,8 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: http://192.168.25.138
+url: "https://www.seniocaires.com.br" # o valor desta variável é substituído pelo valor do host em jekyll serve -H 0.0.0.0
+domain_url: "https://www.seniocaires.com.br" # variável criada para corrigir o problema acima. Usá-la principalmente se estiver usando containers.
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -113,14 +114,14 @@ paginate: 5
 
 email-share: True
 fb-share: True
-twitter-share: True
+twitter-share: False
 linkedin-share: True
-reddit-share: True
-google-plus-share: True
-tumblr-share: True
-pinterest-share: True
-pocket-share: True
-vkontakte-share: True
+reddit-share: False
+google-plus-share: False
+tumblr-share: False
+pinterest-share: False
+pocket-share: False
+vkontakte-share: False
 
 disqus-shortname: "panossakkos"
 
@@ -146,7 +147,7 @@ timeline-img: "/img/timeline/default.png"
 # Contact #
 ###########
 
-email: "your@email.here"
+email: "seniocaires@gmail.com"
 
 ################
 # Author Blurb #
@@ -203,7 +204,7 @@ pages_list:
 
 # Exclusion list from the generated _site
 
-exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
+exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts", "Dockerfile"]
 
 # Pagination path
 
