@@ -32,8 +32,8 @@ force-https: True
 lang: "pt-BR"
 author: "Sênio Caires"
 title: "{ Sênio Caires }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+description: "Blog e website de Sênio Caires."
+keywords: "caires, senio"
 favicon: "/img/favicon.ico"
 
 ################
@@ -56,10 +56,10 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "A lógica pode levar de um ponto A a um ponto B. A imaginação pode levar a qualquer lugar. - Albert Einstein"
+  - text: "Se você está atravessando um inferno, continue atravessando. Winston Churchill"
 
-me-img: "/img/jetpacktocat.png"
+#me-img: "/img/jetpacktocat.png"
 
 # To use facebook profile pic comment the previous line and uncomment the following
 # line, and replace 'user_id' with your facebook user id.
@@ -72,7 +72,7 @@ me-img: "/img/jetpacktocat.png"
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
 
-# me-img: "https://github.com/user_name.png?size=500"
+me-img: "https://github.com/seniocaires.png?size=500"
 
 # To use gravatar profile pic uncomment the following line and replace 'email_hash'
 # with your gravatar profile email hash.
@@ -114,16 +114,16 @@ paginate: 5
 
 email-share: True
 fb-share: True
-twitter-share: False
+twitter-share: True
 linkedin-share: True
-reddit-share: False
-google-plus-share: False
-tumblr-share: False
-pinterest-share: False
-pocket-share: False
-vkontakte-share: False
+reddit-share: True
+google-plus-share: True
+tumblr-share: True
+pinterest-share: True
+pocket-share: True
+vkontakte-share: True
 
-disqus-shortname: "panossakkos"
+disqus-shortname: "seniocaires"
 
 syntax-highlight: True
 
@@ -157,7 +157,7 @@ email: "seniocaires@gmail.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
+author_blurb: "Sênio vive em Belo Horizonte, onde trabalha com Engenharia e Arquitetura de Software. Nas horas vagas, assiste seriados e lê muitos livros."
 author_blurb_image: "/img/author.png"
 
 ##################
@@ -166,13 +166,13 @@ author_blurb_image: "/img/author.png"
 
 social:
   - title: "facebook"
-    url: "https://facebook.com/"
-  - title: "twitter"
-    url: "https://twitter.com/"
+    url: "https://facebook.com/seniocaires"
+#  - title: "twitter"
+#    url: "https://twitter.com/"
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+    url: "https://github.com/seniocaires"
+#  - title: "bitcoin"
+#    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
   - title: "rss"
     url: "/feed.xml"
 
@@ -186,9 +186,9 @@ err-404-img: "/img/labtocat.png"
 # GPG on Keybase #
 ##################
 
-keybase-username: johnsmith
-keybase-in-social: True
-keybase-in-footer: True
+keybase-username: 
+keybase-in-social: False
+keybase-in-footer: False
 
 ################################################################################
 
@@ -197,10 +197,10 @@ keybase-in-footer: True
 # Sections shown in the index page
 
 pages_list:
-  About: 'about'
+  Sobre: 'about'
   Blog: 'latest-post'
   Timeline: 'timeline'
-  Contact: 'contact'
+  Contato: 'contact'
 
 # Exclusion list from the generated _site
 
