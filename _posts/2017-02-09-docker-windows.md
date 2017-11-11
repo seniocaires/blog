@@ -142,13 +142,13 @@ O usuário padrão é *“vagrant”* e a senha é *“vagrant“*.
 ### Fazendo uma conexão SSH com a máquina virtual
 
 Dentro do diretório do projeto o Vagrant criou uma pasta chamada *“.vagrant“*. Nesta pasta você irá encontrar a chave privada para acessar a máquina virtual.  
-Private Key: * .vagrant\machines\default\virtualbox\private_key *
+Private Key: .vagrant\machines\default\virtualbox\private_key
 
 Primeiramente precisaremos converter esta chave para um formato que o PuTTY reconhece.
 
 1. Abra o PuTTYgen;
 2. Clique em *“File”* , *“Load private key“*;
-3. Acesse a pasta *.vagrant\machines\default\virtualbox\*;
+3. Acesse a pasta .vagrant\machines\default\virtualbox\;
 4. Como os arquivos desta pasta não possuem extensão, você terá que selecionar a opção de visualizar todos os arquivos;
 5. Selecione o arquivo private_key e importe-o.
 6. Clique em *“File“*, *“Save private key”* e salve o arquivo com qualquer nome e com a extensão *.ppk* (PuTTY Private Key).
