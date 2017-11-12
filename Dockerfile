@@ -9,4 +9,6 @@ RUN apt update && apt install -y gcc ruby-full make zlib1g-dev \
     && cd /tmp && jekyll new stub && cd /tmp/stub && bundler exec jekyll build && rm -rf /tmp/stub \
     && cd /app && ./scripts/install && jekyll build
 
+EXPOSE 4000
+
 ENTRYPOINT ["jekyll","serve","-H","0.0.0.0"]
