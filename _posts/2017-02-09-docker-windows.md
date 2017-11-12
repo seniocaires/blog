@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: Docker no Windows
 category: docker
-tags: [ 'docker' ]
+tags: [ 'docker', 'vagrant', 'windows' ]
 ---
 
 Atualmente existem três formas de utilizar o Docker no Windows:
